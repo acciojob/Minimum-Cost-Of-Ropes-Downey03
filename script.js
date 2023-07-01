@@ -2,7 +2,8 @@ function calculateMinCost() {
   //your code here
 	let cost = 0;
 	let form = document.getElementById("form");
-	let input = document.querySelector("input[type='text']")
+	let input = form.get('input[type="text"]').value
+	let button = form.get('button[type="button"]')
 	  let arr = input.split(",");
 console.log(arr)
 	while(arr.length>1)
