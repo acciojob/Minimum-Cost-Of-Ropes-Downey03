@@ -12,5 +12,5 @@ function calculateMinCost() {
 		cost += arr[1]
 		arr.shift();
 	}  
-return cost;
+	document.getElementById("result").textContent = cost;
 }  
