@@ -1,8 +1,10 @@
 function calculateMinCost() {
   //your code here
 	let cost = 0;
-	let input = document.getElementById("rope-lengths").value;
+	let form = document.getElementById("form");
+	let input = document.querySelector("input[type='text']")
 	  let arr = input.split(",");
+console.log(arr)
 	while(arr.length>1)
 	{
 		arr.sort(function(a,b){
